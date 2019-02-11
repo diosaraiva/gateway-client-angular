@@ -12,7 +12,7 @@
 	<artifactId>gateway-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gateway-api</name>
-	<description>Spring Cloud Gateway API Project</description>
+	<description>Spring Boot Gateway API Project</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -20,14 +20,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-hateoas</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
