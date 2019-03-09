@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApiApplication<gateway-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.diosaraiva.gatewayapi.GatewayApiApplication",
+            "projectName": "gateway-api",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ClientApiApplication<client-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.diosaraiva.clientapi.ClientApiApplication",
+            "projectName": "client-api",
+            "args": ""
+        }
+    ]
+}
