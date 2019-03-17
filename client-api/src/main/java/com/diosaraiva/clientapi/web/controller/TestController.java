@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
- 
     @RequestMapping(method = RequestMethod.GET, value = "/test")
     @ResponseBody
     public String ok() {
