@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql8-169a868518c-2c821f20f6d1e46" provider="mysql" driver="mysql8" name="MySQL 8+ - client-mysql" save-password="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="client-mysql" url="jdbc:mysql://localhost:3306/client-mysql" user="root" password="AQsJNCGi" type="dev">
+			<property name="connectTimeout" value="20000"/>
+			<provider-property name="@dbeaver-serverTimezone@" value="America/Sao_Paulo"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>

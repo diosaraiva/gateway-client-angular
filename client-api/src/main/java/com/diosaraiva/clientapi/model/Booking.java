@@ -11,8 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
-public class User {
+public class Booking {
 	@Id
 	private long id = 0;
-	private String email = "";
 }

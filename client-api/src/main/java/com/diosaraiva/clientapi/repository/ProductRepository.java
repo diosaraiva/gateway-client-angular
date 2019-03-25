@@ -3,8 +3,8 @@ package com.diosaraiva.clientapi.repository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.diosaraiva.clientapi.model.User;
+import com.diosaraiva.clientapi.model.Product;
 
 @Repository
-public interface UserRepository extends CrudRepository<User,Long> {
+public interface ProductRepository extends CrudRepository<Product,Long> {
 }
